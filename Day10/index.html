@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 10 - Modal Popup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💬 Modal Popup</h1>
+        <button onclick="openModal()">Open Modal</button>
+    </div>
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span onclick="closeModal()" class="close">&times;</span>
+            <h2>Hello 👋</h2>
+            <p>This is a custom popup using JavaScript!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
