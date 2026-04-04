@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 12 - Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📋 Form Validation</h1>
+        <form onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Enter your name"><br>
+            <small id="nameError"></small><br>
+            <input type="email" id="email" placeholder="Enter your email"><br>
+            <small id="emailError"></small><br>
+            <input type="password" id="password" placeholder="Enter password"><br>
+            <small id="passwordError"></small><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
