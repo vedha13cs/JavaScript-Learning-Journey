@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+img {
+    margin-top: 20px;
+    width: 200px;
+}
