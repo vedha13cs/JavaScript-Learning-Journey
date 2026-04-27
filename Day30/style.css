@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    color: black;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.dark {
+    background: #121212;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
